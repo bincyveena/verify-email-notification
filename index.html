@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Verify Your Email</title>
-  <!-- Load Kanit and Roboto fonts from Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body {
@@ -25,7 +24,7 @@
     }
 
     .logo {
-      max-width: 150px; /* Adjust the size of your logo as needed */
+      max-width: 150px;
       margin-bottom: 20px;
       display: block;
     }
@@ -46,8 +45,8 @@
   <div class="container">
     <!-- Embed the Base64 encoded logo here -->
     <img src="data:image/png;base64,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" alt="Company Logo" class="logo">
-    <h1>Check Your Email</h1>
-    <p>We've sent a verification email to your inbox. Please check your email and click on the verification link to complete your registration.</p>
+    <h1>Please Verify Your Email</h1>
+    <p>We've sent a verification email to your inbox. Click on the verification link to complete the registration.</p>
     <p>If you haven't received the email, check your spam folder.</p>
   </div>
 </body>
